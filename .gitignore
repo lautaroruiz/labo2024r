@@ -182,3 +182,7 @@ project/target
 .worksheet
 
 .vscode/settings.json
+.Rproj.user
+.Rproj
+labo2024r.Rproj
+.Rhistory
