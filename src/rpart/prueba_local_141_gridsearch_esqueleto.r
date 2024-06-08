@@ -89,7 +89,7 @@ ArbolesMontecarlo <- function(semillas, param_basicos) {
 #------------------------------------------------------------------------------
 
 # Aqui se debe poner la carpeta de la computadora local
-setwd("~/buckets/b1") # Establezco el Working Directory
+setwd("C:/Users/lauta/Desktop/Lautaro/maestria_ciencia_datos/labo_1/") # Establezco el Working Directory
 # cargo los datos
 
 # cargo los datos
@@ -114,10 +114,10 @@ tb_grid_search <- data.table( cp = numeric(),
 
 # itero por los loops anidados para cada hiperparametro
 
-for (vmin_split in c(1000, 800, 600, 400, 200, 100, 30)) { #c(1000,800,500,300,200,100,50,30,20,10)
+for (vmin_split in c(1000, 800, 600, 400, 200, 100)) { #c(1000,800,500,300,200,100,50,30,20,10)
   for (vminbucket in c(as.integer(vmin_split/2), as.integer(vmin_split/3), as.integer(vmin_split/4))) { #c(as.interger(vmin_split/2), as.interger(vmin_split/3), as.interger(vmin_split/4), as.interger(vmin_split/5))
-    for (vcp in c(-0.5, -0.1, -0.01, -0.001, 0, 0.001, 0.01)) {
-      for (vmax_depth in c(8, 10, 12, 14, 20)) {
+    for (vcp in c(-0.5)) {
+      for (vmax_depth in c(4,5,6,7,8)) {
         # notar como se agrega
         
         # vminsplit  minima cantidad de registros en un nodo para hacer el split
