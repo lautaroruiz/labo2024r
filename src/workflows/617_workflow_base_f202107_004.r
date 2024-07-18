@@ -1,4 +1,5 @@
 # Corrida general del Workflow Baseline
+# Asociado con los archivos EV 1 a 5
 
 # limpio la memoria
 rm(list = ls(all.names = TRUE)) # remove all objects
