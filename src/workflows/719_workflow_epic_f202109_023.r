@@ -1,5 +1,6 @@
 # Corrida general del Workflow Epic
 # exp 20 pero cambio algunas cosas
+# dr deflacion
 # desconsidero bases 201910, 202105
 
 # limpio la memoria
