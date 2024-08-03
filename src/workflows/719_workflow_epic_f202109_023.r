@@ -247,8 +247,8 @@ CN_canaritos_asesinos_base <- function( pinputexps, ratio, desvio)
   # Parametros de un LightGBM que se genera para estimar la column importance
   param_local$train$clase01_valor1 <- c( "BAJA+2", "BAJA+1")
   param_local$train$positivos <- c( "BAJA+2")
-  param_local$train$training <- c( 202101, 202102, 202103)
-  param_local$train$validation <- c( 202105 )
+  param_local$train$training <- c( 202019, 202101, 202102)
+  param_local$train$validation <- c( 202104 )
   param_local$train$undersampling <- 0.1
   param_local$train$gan1 <- 117000
   param_local$train$gan0 <-  -3000
